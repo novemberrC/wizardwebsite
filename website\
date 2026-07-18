@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wizard bro</title>
+</head>
+
+<body>
+    <header>
+        <h1>My personal website</h1>
+        <nav>
+            <a href="#about">dont</a>
+            <a href="#projects">click</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>my name carson.</p>
+        <img src="https://i.pinimg.com/736x/9f/33/27/9f3327d54e2a8c84563000b7e1cb4f4c.jpg" alt="My photo" width="200"
+            height="200">
+        <img src="https://i.pinimg.com/736x/a7/96/d8/a796d892720591939d18037d6b4385b3.jpg" alt="goku sayin sum real"
+            width="200" height="200">
+    </section>
+
+
+    <p>Worf</p>
+
+    <style>
+        div {
+            background-color: rgb(171, 171, 238);
+            height: 100px;
+            width: 200px;
+        }
+
+        .panel {
+            height: 100px;
+            width: 150px;
+            background-color: rgb(131, 0, 22);
+        }
+
+        .intro {
+            height: 50px;
+            width: 100px;
+            background-color: rgb(0, 174, 162)
+        }
+    </style>
+    <div class="panel">
+        <div class="intro">
+            Son of Mogh
+        </div>
+    </div>
+    <a href="https://www.startrek.com//">open Star trek</a>
+    <img src="https://images.prismic.io/star-trek-untold/N2VlNmRmOWMtYTlmOC00ZDk5LTkyYjEtMmRmNTAxYzk4ODIx_worf_s5pb2.jpg?auto=compress,format&rect=0,0,408,582&w=408&h=582"
+        alt="Worf" width="400" height="500">
+</body>
+
+</html>
