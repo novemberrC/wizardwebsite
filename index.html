@@ -1,39 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
     <title>Wizardsite</title> <!-- title in the top-->
 </head>
 <style>
     .header {
-    height:150px;
-    background-color: darkolivegreen;
-    background-image: url('https://i.pinimg.com/736x/e6/24/49/e62449ebf0ee8f41930a382c5dbae196.jpg');
-    background-position: 0%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-color: darkgreen;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 30px;
-    padding: 10px;
-    text-align: center; 
+        /*top section of the website*/
+        height: 150px;
+        background-color: rgb(201, 255, 109);
+        background-image: url('https://i.pinimg.com/736x/e6/24/49/e62449ebf0ee8f41930a382c5dbae196.jpg');
+        background-position: 0%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 10px;
+        text-align: center;
     }
-    .section {
-    height: 100px;
-    width: 75%;
-    background-color: lightcyan;
-    border-style: solid;
-    border-radius: 20px;
-    text-align: center;
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* Creates 3 equal-width columns */
+        gap: 1%;
+        margin: 1% 0;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(9, 159, 4);
+        padding: 5px;
+        background-color: chartreuse;
+    }
+
+    .sectionr {
+        /*right section of the website*/
+        background-color: orange;
+        height: 500px;
+        width: 75%;
+        justify-self: end;
+    }
+
+    .sectionm {
+        /*middle section of the website*/
+        height: 500px;
+        width: 150%;
+        background-color: rgb(254, 255, 224);
+        text-align: left;
+        justify-self: center;
+    }
+
+    .sectionl {
+        /*left section of the website*/
+        background: rgb(186, 177, 142);
+        height: 500px;
+        width: 75%;
     }
 </style>
+
 <body style="background-color:green">
-<div class="header">
-    MY WEBSITE! <a href="https://www.youtube.com/watch?v=DL7OAJNxA98&pp=ygUbbGlsIHdheW5lIGxvbGxpcG9wIHJpbmd0b25l"> Get Lil Wayne's Lollipop Ringtone In 30 Seconds</a>
-</div>
-<div class="section">
-    hi<hr>hi
-</div>
+    <div class="header">
+        MY WEBSITE! <a href="https://www.youtube.com/watch?v=DL7OAJNxA98&pp=ygUbbGlsIHdheW5lIGxvbGxpcG9wIHJpbmd0b25l">
+            Get Lil Wayne's Lollipop Ringtone In 30 Seconds</a>
+    </div>
+    <div class="grid">
+        <div class="sectionl">
+            hi
+        </div>
+        <div class="sectionm">
+            hey
+        </div>
+        <div class="sectionr">
+            hello
+        </div>
+    </div>
 </body>
+
 </html>
