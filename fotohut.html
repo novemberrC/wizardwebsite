@@ -6,113 +6,49 @@
     <title>Wizardsite</title> <!-- title in the top-->
 </head>
 <style>
-    /*styling and design of the div classes*/
-    .header {
-        /*top section of the website/banner */
-        height: 150px;
-        background-image: url('https://i.pinimg.com/736x/e6/24/49/e62449ebf0ee8f41930a382c5dbae196.jpg');
-        background-position: 0%;
-        background-size: 100% 100%;
+    .background {
+        background-color: aliceblue;
+        background-image: url("https://i.postimg.cc/4NtpB97m/website.png");
         background-repeat: no-repeat;
-        padding: 10px;
-        /*makes sure the text does not touch the top*/
-        text-align: center;
-        margin: -10px;
-    }
-
-    .top {
-        background-color: inherit;
-        filter: brightness(0.);
-        border-style: outset;
-        border-width: 4px;
-        border-color: inherit;
-    }
-
-    .top:hover {
-        background-color: inherit;
-        filter: ;
-        border-style: inset;
+        background-position-x: center;
+        background-size: 100rem 80rem;
     }
 
     .grid {
-        /*the body's grid the meat of the website is designed under .grid.*/
         display: grid;
-        grid-template-columns: 1fr 1fr 1.2fr;
-        /* Creates 3 equal-width columns */
-        gap: 3%;
-        margin: 2rem 0rem -2rem;
-        /*this makes the entire grid not touch the banner but also not touch the sides*/
+        grid-template-columns: 17rem 25rem;
+        gap: 2%;
+        margin: 2rem 15.5rem 1rem;
         padding: 5px;
+        background-color: white;
+        background-size: 100rem 80rem;
         font-family: 'Courier New', Courier, monospace;
+        border: 3px solid #73AD21;
     }
 
-    .right {
-        /*right section of the website*/
+    .pageone {
         border-style: solid;
-        border-width: 3px;
-        background-color: blue;
-        border-color: rgb(204, 134, 3);
-        height: 500px;
-        width: 80%;
-        justify-self: end;
+        border-color: red;
+        position: static;
+        left: 35rem;
+        right: 10px;
+        text-align: center
     }
 
-    .middle {
-        /*middle section of the website*/
+    .pagetwo {
         border-style: solid;
-        border-width: 3px;
-        height: 500px;
-        width: 150%;
-        background-color: rgb(150, 204, 255);
-        border-color: rgb(134, 176, 214);
-        text-align: left;
-        justify-self: center;
-    }
-
-    .left {
-        /*left section of the website*/
-        border-style: solid;
-        border-width: 3px;
-        background-color: rgb(255, 196, 231);
-        border-color: rgb(234, 153, 201);
-        height: 500px;
-        width: 75%;
+        padding: 10px
     }
 </style>
 
-<body style="background-color:firebrick">
-    <header class="header"> <!--the top of the page-->
-        HORROOORRRRRRRRRR<!--text-->
-        <a href="https://www.youtube.com/watch?v=DL7OAJNxA98&pp=ygUbbGlsIHdheW5lIGxvbGxpcG9wIHJpbmd0b25l">
-            Get HORRRORRRR Wayne's Lollipop Ringtone In 30 Seconds</a> <!--hyperlink-->
-    </header>
-
-    <header style="background-color:chocolate; margin: 1rem 0.3rem -2rem; "> <!--the top of the body -->
-        <div style="color:honeydew; padding: 2px">
-            <b>Welbcome to the HORRRORRRR the stuff is HORRRORRR</b>
-        </div>
-    </header>
-
-    <div class="grid"> <!--the WHOLE body-->
-        <section class="left">
-            <div class="top">
-                <img src="https://i.pinimg.com/originals/3d/7b/51/3d7b515e80ce67af2da27a517d71ab29.gif"
-                    style="width: 100%; height: 50px">
-                <b>SICK NEW UPDATES!!!!!</b>
-            </div>
+<body class="background">
+    <div class="grid">
+        <section class="pageone">
+            <h1>navnrih</h1>navbruh
         </section>
-        <section class="middle">
-            <div class="top">
-                <img src="https://i.pinimg.com/originals/b7/71/63/b771634c1902023d7f4e10d58f4baeed.gif"
-                    style="width: 100%; height: 50px">
-                <b>ABOUT ME:</b><br>
-            </div>
+        <section class="pagetwo">
+            <h1>the lobby</h1>cvbcvbcvcvb
         </section>
-        <section class="right">
-            <img src="https://i.pinimg.com/originals/cb/8f/ac/cb8fac034a67b61bd386186f84812f04.gif"
-                style="width: 100%; height: 50px">
-            <b>the foto hut mini®</b>
-    </div>
     </div>
 </body>
 
