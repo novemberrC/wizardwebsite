@@ -3,61 +3,149 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
-    <title>Wizardsite</title> <!-- title in the top-->
+    <title>za lobby</title> <!-- title in the top-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
 </head>
+
 <style>
+    .background {
+        background-image: url("https://tint.creativemarket.com/Wh7awB4cKseg-S_ph7n4K50eV9vVxWXCyctixwT_Zow/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzUxNzAvNTE3MDkvNTE3MDkyNjQvMDAxcy1vLmpwZyMxNzI3NzI1NTI1?1727725525");
+        background-repeat: repeat-y;
+        background-size: cover;
+    }
+
     .header {
-        height:100px;
-        background-image: url("https://i.pinimg.com/736x/6e/1d/05/6e1d05eaac6854606c4770ae2c786793.jpg");
+        height: 10rem;
+        background-image: url("https://blob.gifcities.org/gifcities/KPUJRU5NSHICOXNAJGOBYVB3R3TKBG7Q.gif");
         background-size: 100% 100%;
-        border-style: solid;
         margin: -0.5rem;
         display: flex;
         align-items: flex-end;
-        color: white
-
+        color: white;
+        font-size: 50px;
+        font-family: "Rubik Pixels", monospace;
+        font-weight: 400;
+        font-style: normal;
     }
+
     .grid {
+        border-style: dashed;
+        border-color: rgb(245, 217, 168);
+        border-width: 10px;
         display: flex;
-        flex-wrap:wrap;
-        gap: 2%;
-        margin: 2rem 1rem;
-        font-family: 'Courier New', Courier, monospace;
-        border: 3px solid #73AD21;
+        gap: -20%;
+        margin: 2rem 2rem;
+        padding: 50px;
         justify-content: center;
+        background-image: url("https://i.pinimg.com/736x/2a/19/a3/2a19a32b619b0ab1d584e5fc5f520253.jpg");
+        background-size: 500px;
+        background-clip: content-box;
+    }
+
+    .innergrid {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem
     }
 
     .left {
+        margin: 10px;
         border-style: dotted;
         border-color: orange;
-        background-color:bisque;
+        background-color: blanchedalmond;
+        z-index: 1
     }
-    .center{
-        border-style:dotted;
-        border-color:pink;
-        background-color: lightpink
-    }
-    .bottom {
+
+    .center {
+        width: 60rem;
         border-style: dotted;
-        border-color:cadetblue;
-        background-color:skyblue;
+        border-color: pink;
+        background-color: bisque;
+        z-index: index -1;
+        margin: 100px -30px
+    }
+
+    .bottom {
+        margin: -3rem 10rem 1rem;
+        width: 42rem;
+        height: 5rem;
+        border-style: dotted;
+        border-color: cadetblue;
+        background-color: skyblue;
+        justify-self: center;
+    }
+
+    a {
+        background-color: white;
+        border-style: outset;
+        text-decoration: none;
+        color: black;
+        transition: margin 1s;
+        margin: 2px
+    }
+
+    a:hover {
+        border-style: inset;
+        margin: 10px
+    }
+
+    ul {
+        list-style: none;
+        /* Removes default bullet */
+        padding: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    li::before {
+        content: "";
+        display: inline-block;
+        width: 200px;
+        /* Set custom width */
+        height: 200px;
+        /* Set custom height */
+        margin-right: -20px;
+        /* Space between image and text */
+        background-image: url('https://i.postimg.cc/KGRBpnbd/nav.png');
+        background-size: contain;
+        /* Forces image to scale */
+        background-repeat: no-repeat;
+        vertical-align: -750%;
     }
 </style>
 <header class="header">
-    <b>MY WEBSITE</b>
+    <b>MY WEBSITE</b><img src="https://blob.gifcities.org/gifcities/YNDC6T5GFO4XQ6DUFKMS54Q77I3LO2JN.gif">
 </header>
-<body style= background-image:url("https://tint.creativemarket.com/Wh7awB4cKseg-S_ph7n4K50eV9vVxWXCyctixwT_Zow/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzUxNzAvNTE3MDkvNTE3MDkyNjQvMDAxcy1vLmpwZyMxNzI3NzI1NTI1?1727725525")>
+
+<img src="https://gifcity.carrd.co/assets/images/gallery421/e77fe1ca.png?v=3fc8f5cd">
+
+
+<body class="background">
     <div class="grid">
         <section class="left">
-            butts
+            <h1 style="text-align:center">MAIN MENU</h1>
+            <ul>
+                <li><a href="index.html">The Lobby</a></li>
+                <li><a href="fotohut.html">The FotoHut</a></li>
+                <li><a href="aboutme.html">The About Me</a></li>
+            </ul>
         </section>
-        <section class="center">
-            <h1>the lobby</h1>cbcwwwwwwwdwdwwdwdwdwdwdwdwwdwdwddvbcvcvb
-        </section>
-        <article class="bottom">
-            kekek
-        </article>
+        <div class="innergrid">
+            <section class="center">
+                <div class="innergrid">
+                    <article class="left" style="background-color: lightblue; width: 50%">
+                        <h1 style="text-align:center">THE LOBBY</h1>Hi! my im novcar! I made this website oh yeah<img
+                            src="https://i.pinimg.com/originals/0d/5c/98/0d5c98c686e322b58611c7568dcaf0ab.gif"
+                            style="width: 100%;">
+                    </article>
+                </div>
+                <footer class="bottom" style="padding:1px 20px">
+                    <p style="text-align:end">FOOTER AHHH</p>
+                </footer>
+        </div>
     </div>
+
 </body>
 
 </html>
