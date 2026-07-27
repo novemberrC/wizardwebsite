@@ -18,7 +18,7 @@
 
     .header {
         height: 10rem;
-        background-image: url("https://blob.gifcities.org/gifcities/KPUJRU5NSHICOXNAJGOBYVB3R3TKBG7Q.gif");
+        background-image: url("https://i.postimg.cc/LXgsNSnh/header.png");
         background-size: 100% 100%;
         margin: -0.5rem;
         display: flex;
@@ -47,7 +47,8 @@
     .innergrid {
         display: flex;
         flex-wrap: wrap;
-        padding: 1rem
+        padding: 1rem;
+
     }
 
     .left {
@@ -55,7 +56,8 @@
         border-style: dotted;
         border-color: orange;
         background-color: blanchedalmond;
-        z-index: 1
+        background-image: url("https://i.pinimg.com/originals/0d/5c/98/0d5c98c686e322b58611c7568dcaf0ab.gif");
+
     }
 
     .center {
@@ -63,9 +65,12 @@
         border-style: dotted;
         border-color: pink;
         background-color: bisque;
-        z-index: index -1;
-        margin: 100px -30px
+        background-image: url("https://i.pinimg.com/originals/0d/5c/98/0d5c98c686e322b58611c7568dcaf0ab.gif");
+        background-repeat: repeat;
+        background-size: 50% 100%;
+        margin: 100px -30px;
     }
+
 
     .bottom {
         margin: -3rem 10rem 1rem;
@@ -75,6 +80,12 @@
         border-color: cadetblue;
         background-color: skyblue;
         justify-self: center;
+        transition: width 1s, height 1s;
+    }
+
+    .bottom:hover {
+        width: 75%;
+        height: 15%
     }
 
     a {
@@ -114,8 +125,8 @@
         vertical-align: -750%;
     }
 </style>
-<header class="header">
-    <b>MY WEBSITE</b><img src="https://blob.gifcities.org/gifcities/YNDC6T5GFO4XQ6DUFKMS54Q77I3LO2JN.gif">
+<header class="header"> <b style="margin:0px 10rem">MY
+        WEBSITE</b>
 </header>
 
 <img src="https://gifcity.carrd.co/assets/images/gallery421/e77fe1ca.png?v=3fc8f5cd">
@@ -134,14 +145,15 @@
         <div class="innergrid">
             <section class="center">
                 <div class="innergrid">
-                    <article class="left" style="background-color: lightblue; width: 50%">
-                        <h1 style="text-align:center">THE LOBBY</h1>Hi! my im novcar! I made this website oh yeah<img
-                            src="https://i.pinimg.com/originals/0d/5c/98/0d5c98c686e322b58611c7568dcaf0ab.gif"
-                            style="width: 100%;">
+                    <article class="left" style="background-color: lightblue; width: 50%; height:28rem; z-index: 3">
+                        <h1 style="text-align:center">THE LOBBY</h1>Hi! my im novcar! I made this website oh yeah
                     </article>
                 </div>
                 <footer class="bottom" style="padding:1px 20px">
-                    <p style="text-align:end">FOOTER AHHH</p>
+                    <p style="text-align:end; font-family: 'Courier New', Courier, monospace;"><b>novcarSTUDIOS
+                            2026®</b><img
+                            src="https://blob.gifcities.org/gifcities/YNDC6T5GFO4XQ6DUFKMS54Q77I3LO2JN.gif"
+                            style="width:50px"></p>
                 </footer>
         </div>
     </div>
